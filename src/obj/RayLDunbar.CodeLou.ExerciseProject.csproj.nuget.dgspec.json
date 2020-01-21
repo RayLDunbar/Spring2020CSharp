@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/chico/Desktop/C# Class Project/Spring2020/src/RayLDunbar.CodeLou.ExerciseProject.csproj": {}
+  },
+  "projects": {
+    "/Users/chico/Desktop/C# Class Project/Spring2020/src/RayLDunbar.CodeLou.ExerciseProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/chico/Desktop/C# Class Project/Spring2020/src/RayLDunbar.CodeLou.ExerciseProject.csproj",
+        "projectName": "RayLDunbar.CodeLou.ExerciseProject",
+        "projectPath": "/Users/chico/Desktop/C# Class Project/Spring2020/src/RayLDunbar.CodeLou.ExerciseProject.csproj",
+        "packagesPath": "/Users/chico/.nuget/packages/",
+        "outputPath": "/Users/chico/Desktop/C# Class Project/Spring2020/src/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/chico/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
