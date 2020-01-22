@@ -1,0 +1,11 @@
+/Users/chico/Desktop/C# Class Project/Spring2020/src/bin/Debug/netcoreapp3.1/RayLDunbar.CodeLou.ExerciseProject
+/Users/chico/Desktop/C# Class Project/Spring2020/src/bin/Debug/netcoreapp3.1/RayLDunbar.CodeLou.ExerciseProject.deps.json
+/Users/chico/Desktop/C# Class Project/Spring2020/src/bin/Debug/netcoreapp3.1/RayLDunbar.CodeLou.ExerciseProject.runtimeconfig.json
+/Users/chico/Desktop/C# Class Project/Spring2020/src/bin/Debug/netcoreapp3.1/RayLDunbar.CodeLou.ExerciseProject.runtimeconfig.dev.json
+/Users/chico/Desktop/C# Class Project/Spring2020/src/bin/Debug/netcoreapp3.1/RayLDunbar.CodeLou.ExerciseProject.dll
+/Users/chico/Desktop/C# Class Project/Spring2020/src/bin/Debug/netcoreapp3.1/RayLDunbar.CodeLou.ExerciseProject.pdb
+/Users/chico/Desktop/C# Class Project/Spring2020/src/obj/Debug/netcoreapp3.1/RayLDunbar.CodeLou.ExerciseProject.csprojAssemblyReference.cache
+/Users/chico/Desktop/C# Class Project/Spring2020/src/obj/Debug/netcoreapp3.1/RayLDunbar.CodeLou.ExerciseProject.AssemblyInfoInputs.cache
+/Users/chico/Desktop/C# Class Project/Spring2020/src/obj/Debug/netcoreapp3.1/RayLDunbar.CodeLou.ExerciseProject.AssemblyInfo.cs
+/Users/chico/Desktop/C# Class Project/Spring2020/src/obj/Debug/netcoreapp3.1/RayLDunbar.CodeLou.ExerciseProject.dll
+/Users/chico/Desktop/C# Class Project/Spring2020/src/obj/Debug/netcoreapp3.1/RayLDunbar.CodeLou.ExerciseProject.pdb
