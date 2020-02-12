@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 namespace RayLDunbar.CodeLou.ExerciseProject
 {
     public class Student
@@ -11,7 +12,7 @@ namespace RayLDunbar.CodeLou.ExerciseProject
         public DateTimeOffset StartDate { get; set; }
         public string LastClassCompleted { get; set; }
         public DateTimeOffset LastClassCompletedOn { get; set; }
-        public static Student AddStudent()
+        public static void AddStudent(List<Student> studentList)
         {
             Console.WriteLine("Enter Student Id");
             var studentId = Convert.ToInt32(Console.ReadLine());
@@ -39,7 +40,7 @@ namespace RayLDunbar.CodeLou.ExerciseProject
             StudentRecord.LastClassCompletedOn = lastCompletedOn;
             Console.WriteLine($"Student Id | Name |  Class "); ;
             Console.WriteLine($"{StudentRecord.StudentId} | {StudentRecord.FirstName} {StudentRecord.LastName} | {StudentRecord.ClassName} ");
-            return StudentRecord;
+            studentList.Add(StudentRecord);
         }
     }
 }
