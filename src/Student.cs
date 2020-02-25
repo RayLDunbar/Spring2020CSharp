@@ -14,8 +14,17 @@ namespace RayLDunbar.CodeLou.ExerciseProject
         public DateTimeOffset LastClassCompletedOn { get; set; }
         public static void AddStudent(List<Student> studentList)
         {
-            Console.WriteLine("Enter Student Id");
-            var studentId = Convert.ToInt32(Console.ReadLine());
+            var StudentRecord = new Student();
+
+            while (true) 
+            {
+                Console.WriteLine("Enter Student Id");
+                var studentIdSuccessful = int.TryParse(Console.ReadLine(), out var studentId);
+                if (studentIdSuccessful) 
+                {
+            StudentRecord.StudentId = studentId;
+            break;}
+            }
             Console.WriteLine("Enter First Name");
             var studentFirstName = Console.ReadLine();
             Console.WriteLine("Enter Last Name");
@@ -24,20 +33,27 @@ namespace RayLDunbar.CodeLou.ExerciseProject
             var className = Console.ReadLine();
             Console.WriteLine("Enter Last Class Completed");
             var lastClass = Console.ReadLine();
-            Console.WriteLine("Enter Last Class Completed Date in format MM/dd/YYYY");
-            var lastCompletedOn = DateTimeOffset.Parse(Console.ReadLine());
-            Console.WriteLine("Enter Start Date in format MM/dd/YYYY");
-            var startDate = DateTimeOffset.Parse(Console.ReadLine());
+            while (true) {
+                Console.WriteLine("Enter Last Class Completed Date in format MM/dd/YYYY");
+                var lastCompletedOnSuccessful = DateTimeOffset.TryParse(Console.ReadLine(), out var lastClassCompletedOn);
+                if (lastCompletedOnSuccessful) {
+                    StudentRecord.LastClassCompletedOn = lastClassCompletedOn;
+                    break;
+                }
+            } 
+             while (true) {
+                Console.WriteLine("Enter Start Date in format MM/dd/YYYY");
+                var startDateSuccessful = DateTimeOffset.TryParse(Console.ReadLine(), out var startDate);
+                if (startDateSuccessful) {
+                    StudentRecord.StartDate = startDate;
+                    break;
+                }
+            } 
 
-            var StudentRecord = new Student();
-
-            StudentRecord.StudentId = studentId;
             StudentRecord.FirstName = studentFirstName;
             StudentRecord.LastName = studentLastName;
             StudentRecord.ClassName = className;
-            StudentRecord.StartDate = startDate;
             StudentRecord.LastClassCompleted = lastClass;
-            StudentRecord.LastClassCompletedOn = lastCompletedOn;
             Console.WriteLine($"Student Id | Name |  Class "); ;
             Console.WriteLine($"{StudentRecord.StudentId} | {StudentRecord.FirstName} {StudentRecord.LastName} | {StudentRecord.ClassName} ");
             studentList.Add(StudentRecord);
