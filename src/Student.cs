@@ -55,8 +55,9 @@ namespace RayLDunbar.CodeLou.ExerciseProject
             StudentRecord.ClassName = className;
             StudentRecord.LastClassCompleted = lastClass;
             Console.WriteLine($"Student Id | Name |  Class "); ;
-            Console.WriteLine($"{StudentRecord.StudentId} | {StudentRecord.FirstName} {StudentRecord.LastName} | {StudentRecord.ClassName} ");
+            Console.WriteLine($"{StudentRecord.StudentId} | {StudentRecord.FirstName} {StudentRecord.LastName} |{StudentRecord.ClassName} ");
             studentList.Add(StudentRecord);
+            Program.Save();
         }
     }
 }
